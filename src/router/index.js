@@ -1,10 +1,11 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
+import Index from '@/views/index.vue'
 
 const routes = [
   {
     path: '/',
     name: 'index',
-    component: import(/* webpackChunkName: "about" */ '@/views/index')
+    component: Index
   },
   {
     path: '/super-lotto',
